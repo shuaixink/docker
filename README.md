@@ -3,7 +3,7 @@
 修改docker源
 cat > /etc/docker/daemon.json << EOF
 {
-  "registry-mirrors": ["https://b9pmyelo.mirror.aliyuncs.com"]
+  "registry-mirrors": ["https://pmyelo.mirror.aliyuncs.com"]
 }
 EOF
 
